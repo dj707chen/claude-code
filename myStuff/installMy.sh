@@ -136,7 +136,7 @@ echo "binary_path=$binary_path"
 remote_binary_path="$GCS_BUCKET/$version/$platform/claude"
 echo "remote_binary_path=$remote_binary_path"
 
-# ❗Just wanted to see the value of variables, comment out executing code below.
+# ❗Just wanted to see the value of variables, comment out executing code below
 
 # if ! download_file "$remote_binary_path" "$binary_path"; then
 #     echo "Download failed" >&2
